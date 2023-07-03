@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Open+Sans&display=swap');
+
+.btn {
+    font-family: 'DynaPuff', cursive;
+    font-size: 32px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-verde{
+    background: greenyellow;
+    color: red;
+    box-shadow: 0 5px 0 green;
+}
+
+.btn-verde:hover{
+    background: gainsboro;
+    color: greenyellow;
+    box-shadow: 0 5px 0 gainsboro;
+}
+
+.btn-lilas{
+    background: magenta;
+    color: yellow;
+    box-shadow: 0 5px 0 darkmagenta;
+}
+
+.btn-lilas:hover{
+    background: gainsboro;
+    color: magenta;
+    box-shadow: 0 5px 0 gainsboro;
+}
+
+.btn-azul{
+    background: blue;
+    color: orange;
+    box-shadow: 0 5px 0 darkblue;
+}
+
+.btn-azul:hover{
+    background: gainsboro;
+    color: blue;
+    box-shadow: 0 5px 0 gainsboro;
+}

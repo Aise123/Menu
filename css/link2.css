@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: lightskyblue;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px 15px;
+    border: 3px solid #fff;
+    margin: 100px 30px;
+    border-radius: 200px;
+}
+a:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 2px 3px blue;
+}
+
+.btn1 {
+    transition: .5s;
+}
+.btn1:hover {
+    /* animation-name: a1;
+    animation-delay: 0s;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1; */
+    animation: a1 .2s 0s linear 2;
+}
+@keyframes a1 {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(8deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.btn2 {
+    transition: .5s;
+}
+.btn2:hover {
+    /* animation-name: a1;
+    animation-delay: 0s;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1; */
+    animation: a1 .2s 0s linear 2;
+}^
+
+.btn3 {
+    transition: .5s;
+}
+.btn3:hover {
+    /* animation-name: a1;
+    animation-delay: 0s;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1; */
+    animation: a1 .2s 0s linear 2;
+}
+
+.btn4 {
+    border-color: orange;
+    color: #fff;
+}
+.btn4:hover {
+    background-position: 0;
+    background-image: linear-gradient(45deg, orange 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 0.5s ease-in-out;
+}
+.btn5 {
+    border-color: blue;
+    color: #fff;
+    box-shadow: 0 0 40px 40px dodgerblue inset, 0 0 0 0 dodgerblue;
+    transition: all .3s ease-in-out;
+}
+.btn5:hover {
+    box-shadow: 0 0 10px 0 dodgerblue inset, 0 0 10px 4px dodgerblue;
+}
+
+.btn6 {
+    transition: .5s;
+}
+.btn6:hover {
+    /* animation-name: a1;
+    animation-delay: 0s;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1; */
+    animation: a1 .2s 0s linear 2;
+}

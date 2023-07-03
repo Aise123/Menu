@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+}
+.corpo{
+    width: 1000px;
+    height: 400px;
+    box-shadow: 5px 5px 40px #00f;
+}
+.item{
+    list-style: none;
+    width: 250px;
+    padding-top: 10px;
+}
+.azul {
+    height: 70px;
+    width: 70px;
+    background: #00f;
+    position: absolute;
+    transition: width 0.5s ease-out;
+}
+.cinza {
+    height: 70px;
+    width: 250px;
+    background: #aaa;
+}
+a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1;
+    margin: 20px 80px;
+}
+.item:hover {
+    cursor:pointer;
+}
+.item:hover .azul{
+    width: 250px;
+}
